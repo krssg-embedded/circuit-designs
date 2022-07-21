@@ -1,0 +1,10 @@
+3 Hall sensor per wheel motor -> 12 pins total (Interrupt)
+6 output per motor     	      -> 15 pins total (PWM) + 15 pins total (digital)
+4 output per Kicker           -> 4 pins total (digtal)
+NRF Radio Communication	      -> 5 pins total (SPI)
+Infrared Sensors              -> 3 pins total (digital)   
+SWDIO, SWCLK (Programming)    -> 2 pin total (Serial Wire Debug)
+ACS712 Current Feedback       -> 5 pin total (Analog)
+2 input Encoder per motor     -> 8 pin total (Interrupt)
+----------------------------------------------------------------
+			      == 69 pins overall :P
