@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.000123031496" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -972,7 +972,7 @@ design rules under a new name.</description>
 <wire x1="33.9446" y1="48.9556" x2="31.91309375" y2="48.9556" width="0.725" layer="1"/>
 <via x="31.91309375" y="48.9556" extent="1-16" drill="0.4"/>
 <wire x1="17.272" y1="43.688" x2="17.272" y2="46.228" width="1.6" layer="16"/>
-<wire x1="29.21" y1="17.78" x2="25.558453125" y2="21.431546875" width="1.6" layer="1"/>
+<wire x1="25.558453125" y1="21.431546875" x2="29.21" y2="17.78" width="1.6" layer="1"/>
 <wire x1="25.558453125" y1="21.431546875" x2="25.558453125" y2="42.810909375" width="1.6" layer="1"/>
 <wire x1="25.558453125" y1="42.810909375" x2="26.94354375" y2="44.196" width="1.6" layer="1"/>
 <wire x1="26.94354375" y1="44.196" x2="29.21" y2="44.196" width="1.6" layer="1"/>
@@ -1086,13 +1086,13 @@ design rules under a new name.</description>
 <wire x1="36.5428375" y1="19.111178125" x2="35.4735625" y2="18.041903125" width="1.4" layer="16"/>
 <wire x1="36.5428375" y1="36.661834375" x2="36.5428375" y2="19.111178125" width="1.4" layer="16"/>
 <wire x1="31.75" y1="37.462" x2="32.201071875" y2="37.010928125" width="1.4" layer="16"/>
-<polygon width="0.3" layer="16" isolate="0.381" orphans="yes" rank="2">
+<polygon width="0.3" layer="16" isolate="0.381" rank="2">
 <vertex x="14.097" y="53.594"/>
 <vertex x="47.498" y="53.594"/>
 <vertex x="47.498" y="10.922"/>
 <vertex x="14.097" y="10.922"/>
 </polygon>
-<polygon width="0.3" layer="1" isolate="0.381" orphans="yes" rank="2">
+<polygon width="0.3" layer="1" isolate="0.381" rank="2">
 <vertex x="14.097" y="53.594"/>
 <vertex x="47.498" y="53.594"/>
 <vertex x="47.498" y="10.922"/>
@@ -1284,14 +1284,13 @@ design rules under a new name.</description>
 <wire x1="36.928090625" y1="33.33545625" x2="36.928090625" y2="27.02470625" width="1.4" layer="1"/>
 <wire x1="36.928090625" y1="27.02470625" x2="36.827384375" y2="26.924" width="0.725" layer="1"/>
 <wire x1="36.92645" y1="33.337096875" x2="36.928090625" y2="33.33545625" width="1.4" layer="1"/>
-<wire x1="36.92645" y1="46.43970625" x2="36.92645" y2="40.21409375" width="1.4" layer="1"/>
+<wire x1="36.92645" y1="40.21409375" x2="36.92645" y2="46.43970625" width="1.4" layer="1"/>
 <wire x1="36.92645" y1="40.06593125" x2="36.92645" y2="35.390334375" width="1.4" layer="1"/>
 <wire x1="36.92645" y1="35.390334375" x2="36.92645" y2="33.337096875" width="1.4" layer="1"/>
 <wire x1="36.92645" y1="34.988903125" x2="36.100546875" y2="34.163" width="0.75" layer="1"/>
 <wire x1="36.92645" y1="34.988903125" x2="36.92645" y2="35.390334375" width="0.75" layer="1"/>
 <wire x1="36.100546875" y1="34.163" x2="36.928090625" y2="33.33545625" width="0.75" layer="1"/>
-<wire x1="34.2868" y1="47.371" x2="35.99515625" y2="47.371" width="0.725" layer="1"/>
-<wire x1="36.04861875" y1="47.3175375" x2="36.92645" y2="46.43970625" width="1.4" layer="1"/>
+<wire x1="36.92645" y1="46.43970625" x2="36.04861875" y2="47.3175375" width="1.4" layer="1"/>
 <wire x1="35.99515625" y1="47.371" x2="36.04861875" y2="47.3175375" width="0.725" layer="1"/>
 <contactref element="IC5" pad="1"/>
 <contactref element="IC5" pad="2"/>
@@ -1317,6 +1316,10 @@ design rules under a new name.</description>
 <via x="41.616190625" y="40.21409375" extent="1-16" drill="1"/>
 <wire x1="41.616190625" y1="40.21409375" x2="39.343009375" y2="40.21409375" width="1.4" layer="16"/>
 <wire x1="39.343009375" y1="40.21409375" x2="39.343009375" y2="40.234453125" width="1.4" layer="16"/>
+<wire x1="34.2868" y1="47.371" x2="35.427815625" y2="47.371" width="1.016" layer="1"/>
+<wire x1="35.427815625" y1="47.371" x2="35.99515625" y2="47.371" width="1.016" layer="1"/>
+<wire x1="34.2868" y1="47.371" x2="33.70699375" y2="47.371" width="1.016" layer="1"/>
+<wire x1="33.70699375" y1="47.371" x2="33.70699375" y2="47.363928125" width="1.016" layer="1"/>
 </signal>
 <signal name="ACS_OUT">
 <contactref element="IC5" pad="7"/>
